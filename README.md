@@ -4,16 +4,16 @@
 
 2. 流程：使用python进行任务
 
----
 
-> > > ## 2.步骤如下
-> > >
+
+## 2.步骤如下
+
 > > > > 1. 用request模块请求url
 
 2. 对于返回包进行切片操作，获取其中的token值
 3. 将获取到的token值与字典一起发送进行暴力破解
 
----
+
 
 
 
@@ -35,7 +35,7 @@ import re
 from bs4 import BeautifulSoup
 from distutils.filelist import findall
 
-host = "http://119.29.175.97/c/hdyzma/"
+host = "http://打码用***打码用/c/hdyzma/"
 
 page = urllib.request.urlopen(host)
 contents = page.read()
@@ -116,7 +116,7 @@ import requests
 
 gets = open("C:/Users/Elliot/Desktop/python_req_crack/simple.txt","r").read().splitlines()
 
-host = "http://119.29.175.97/c/hdyzma/"
+host = "http://打码用***打码用/c/hdyzma/"
 
 s = requests.session()
 

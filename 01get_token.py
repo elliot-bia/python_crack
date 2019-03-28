@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 from distutils.filelist import findall
 
-host = "http://119.29.175.97/c/hdyzma/"
+host = "http://打码用***打码用/c/hdyzma/"
 
 page = urllib.request.urlopen(host)
 contents = page.read()

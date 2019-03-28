@@ -8,7 +8,7 @@ import requests
 
 gets = open("C:/Users/Elliot/Desktop/python_req_crack/simple.txt","r").read().splitlines()
 
-host = "http://119.29.175.97/c/hdyzma/"
+host = "http:/打码用***打码用/c/hdyzma/"
 
 s = requests.session()
 
